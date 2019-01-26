@@ -1,11 +1,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = process.env.HYPEBOT_TOKEN;
+const token = "Mzg0MTI5ODYxMjEzNDg3MTA0.DTXKBQ.uzyiKu-HQPvrfF45s91zOkwNtkE";
 const commands = require("./commands");
 
 client.on("ready", () => {
   console.log("Started bot.");
-  client.user.setGame("hypebot.me");
+  client.user.setGame("h y p e");
 });
 
 client.on("message", async message => {
